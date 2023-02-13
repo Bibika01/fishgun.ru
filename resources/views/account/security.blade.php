@@ -17,18 +17,19 @@
                 <div class="line"></div>
             </div>
             <div class="account-tab tab-3 active">
-                <form name="account-personal" class="account-personal">
+                <form name="account-personal" class="account-personal" action="{{ route('account.change.password') }}" method="post">
+                    @csrf
                     <div class="lf-box">
                         <h3>{{ __('Смена пароля') }}</h3>
                         <div class="account-personal-info">
                             <span class="flaticon-round-info"></span> {{ __('Введите пароль если хотите изменить его') }}
                         </div><div class="lf">
-                            <input type="password" class="inp" name="pwd0" placeholder="{{ __('Текущий пароль') }}"></div>
+                            <input type="password" class="inp" name="current_password" placeholder="{{ __('Текущий пароль') }}"></div>
                         <div class="clr"></div>
-                        <div class="l"><input type="password" class="inp" name="pwd1" placeholder="{{ __('Пароль') }}"></div>
-                        <div class="r"><input type="password" class="inp" name="pwd2" placeholder="{{ __('Повторите пароль') }}"></div>
+                        <div class="l"><input type="password" class="inp" name="new_password" placeholder="{{ __('Пароль') }}"></div>
+                        <div class="r"><input type="password" class="inp" name="new_password_confirmation" placeholder="{{ __('Повторите пароль') }}"></div>
                         <div class="clr"></div><div class="l">&nbsp;</div>
-                        <div class="r r-button"><input type="button" class="btn" value="{{ __('Сохранить') }}" onclick="savePersonal('account-personal');"></div>
+                        <div class="r r-button"><input type="submit" class="btn" value="{{ __('Сохранить') }}"></div>
                         <div class="clr"></div>
                     </div>
                 </form>
