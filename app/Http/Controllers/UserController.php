@@ -88,7 +88,7 @@ class UserController extends Controller
         return redirect()->route('account.applications');
     }
 
-    public function restore(Request $request)
+    public function changePassword(Request $request)
     {
         $request->validate([
             'current_password' => 'required',
