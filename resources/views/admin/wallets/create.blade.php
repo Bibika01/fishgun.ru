@@ -10,6 +10,10 @@
                     <p>{{ $err }}</p>
                 @endforeach
             @endif
+            <div class="mb-3">
+                <label for="wallet_icon" class="form-label">Иконка монеты</label>
+                <input class="form-control" id="wallet_icon" type="file" name="icon">
+            </div>
             <div class="mt-2">
                 <label for="wallet_name">Имя монеты</label>
                 <input class="form-control" id="wallet_name" name="name" type="text" value="{{ old('wallet_name') }}">

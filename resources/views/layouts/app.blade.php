@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <title>Well4u - @yield('title')</title>
     <link rel='stylesheet' href='{{ asset('templates/frontend/default/css/style.min.css') }}'>
-
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&amp;display=swap" rel="stylesheet">
     <script>

@@ -5,6 +5,10 @@
         <form action="{{ route('admin.wallets.update', $wallet->id) }}" method="post" enctype="multipart/form-data">
             @csrf
             <h3 class="mt-3">Редактированые кошелька</h3>
+            <div class="mb-3">
+                <label for="wallet_icon" class="form-label">Иконка монеты</label>
+                <input class="form-control" id="wallet_icon" type="file" name="icon">
+            </div>
             <div class="mt-2">
                 <label for="wallet_name">Имя монеты</label>
                 <input class="form-control" id="wallet_name" type="text" name="name" value="{{ $wallet->name }}">
