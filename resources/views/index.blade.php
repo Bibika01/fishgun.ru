@@ -29,9 +29,9 @@
                         <ul class="list">
                             <li class="empty" style="display: none;">{{ __('Ничего нет') }}</li>
                             @foreach($wallets as $wallet)
-                                <li onclick="select__crypto__from('{{$wallet->name}}','{{$wallet->short_name}}','{{ asset('tokens/'.strtolower($wallet->short_name).'.png') }}')">
+                                <li onclick="select__crypto__from('{{$wallet->name}}','{{$wallet->short_name}}','{{ asset('/storage/uploads/'.$wallet->icon) }}')">
                                             <span class="icon"><img
-                                                    src="{{ asset('tokens/'.strtolower($wallet->short_name).'.png') }}"
+                                                    src="{{ asset('/storage/uploads/'.$wallet->icon) }}"
                                                     alt="USDT TRC20"></span>
                                     <span class="custom-currency-dropdown-title">
 <span class="name">{{ $wallet->name }}</span>
@@ -62,10 +62,10 @@
                         </div>
                         <ul class="list">
                             @foreach($wallets as $wallet)
-                                <li onclick="select__crypto__to('{{$wallet->name}}','{{$wallet->short_name}}','{{ asset('tokens/'.strtolower($wallet->short_name).'.png') }}')"
+                                <li onclick="select__crypto__to('{{$wallet->name}}','{{$wallet->short_name}}','{{ asset('/storage/uploads/'.$wallet->icon) }}')"
                                     style="">
                                             <span class="icon"><img
-                                                    src="{{ asset('tokens/'.strtolower($wallet->short_name).'.png') }}"
+                                                    src="{{ asset('/storage/uploads/'.$wallet->icon) }}"
                                                     alt="USDT TRC20"></span>
                                     <span class="custom-currency-dropdown-title">
 <span class="name">{{ $wallet->name }}</span>
