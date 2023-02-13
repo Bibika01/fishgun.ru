@@ -17,7 +17,7 @@
                 <div class="line"></div>
             </div>
             <div class="account-tab tab-3 active">
-                <form name="account-personal" class="account-personal" action="{{ route('account.change.password') }}" method="post">
+                <form name="account-personal" class="account-personal" action="{{ route('account.change.password', request()->user()->id) }}" method="post">
                     @csrf
                     <div class="lf-box">
                         <h3>{{ __('Смена пароля') }}</h3>
