@@ -13,7 +13,7 @@
                     <div class="exchange-dir">{{ __('Отдаете') }}</div>
                     <div class="custom-currency-dropdown give" data-type="give">
                         <div class="selected">
-                            <span class="icon"><img id="currency_from_img" src="https://well4u.ru/tokens/btc.png"
+                            <span class="icon"><img id="currency_from_img" src="https://fishgun.ru/tokens/btc.png"
                                                     alt="USDT TRC20"></span>
                             <span class="custom-currency-dropdown-title">
 <span class="name" id="currency_from_name">Bitcoin</span>
