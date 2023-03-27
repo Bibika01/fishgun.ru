@@ -199,7 +199,7 @@
         <div class="anonce anonce-telegram anonce-dark">
             <span class="flaticon-chat-message icon"></span>
             <h5>{{ __('Поддержка телеграм') }}</h5>
-            {{ __('Если у вас возникли вопросы напишите нам. Мы с радостью ответим на них') }} <a href="https://t.me/Well4uSuport" class="btn" target="_blank"><span
+            {{ __('Если у вас возникли вопросы напишите нам. Мы с радостью ответим на них') }} <a href="https://t.me/FishGunSuport" class="btn" target="_blank"><span
                     class="flaticon-chat-message tg"></span>{{ __('Напишите нам') }}</a>
         </div>
     </div>
