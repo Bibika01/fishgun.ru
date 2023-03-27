@@ -3,7 +3,7 @@
         <div class="inner">
             <div class="left">
                 <a href="#" class="eas lang" onclick="popupOpen('#popup-lang');return false;">{{ strtoupper(app()->getLocale()) }}<span
-                        class="flaticon-arr2-down ico-1"></span></a><a href="https://t.me/Well4uSuport"
+                        class="flaticon-arr2-down ico-1"></span></a><a href="https://t.me/FishGunSuportSuport"
                                                                        target="_blank"
                                                                        class="eas header-telegram"><span
                         class="flaticon-chat-message ico-2"></span> {{ __('Поддержка телеграм') }} </a>
