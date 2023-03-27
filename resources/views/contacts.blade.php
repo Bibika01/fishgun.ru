@@ -9,11 +9,11 @@
                     <span class="flaticon-round-info icon"></span> {{ __('Операторы онлайн') }}: <b>24/7</b>
                 </div>
                 <ul class="support-info">
-                    <li>{{ __('Связь с нами по почте:') }} well4usup@gmail.com</li>
+                    <li>{{ __('Связь с нами по почте:') }} fishgunsup@gmail.com</li>
                 </ul>
                 <div class="support-soc-title">{{ __('Вы можете связатся с нами с помощью:') }}:</div>
                 <div class="support-soc">
-                    <a href="https://t.me/Well4uSuport" target="_blank" rel="nofollow" class="eas"><b><span class="flaticon-chat-message tg"></span></b>@Well4uSuport</a>
+                    <a href="https://t.me/FishGunSuport" target="_blank" rel="nofollow" class="eas"><b><span class="flaticon-chat-message tg"></span></b>@FishGunSuport</a>
                 <div class="clr"></div>
                 </div>
             </div><div class="support-r">
