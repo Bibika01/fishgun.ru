@@ -33,7 +33,7 @@
                 <div class="logo" style="margin-top: -5px; height: 50px;">
                     <a href="{{ route('home') }}">
                         <img src="{{ asset('images/logo.png') }}"
-                             alt="Well4u logotype"></a>
+                             alt="FishGun logotype"></a>
                 </div>
                 <div class="nav-button" id="nav-btn" onclick="document.getElementById('nav-btn').classList.toggle('opened'); document.getElementById('nav').setAttribute('style', 'display:block;');" data-status="0"><p>MENU</p><span class="eas"></span><span
                         class="eas"></span><span class="eas"></span></div>
